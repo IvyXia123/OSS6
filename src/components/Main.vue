@@ -62,7 +62,7 @@
     .header {
       position: relative;
       .w(100%);
-      min-width:1240px;
+      /*min-width:1240px;*/
       .h(60px);
       .p(10px 40px 10px 20px);
       overflow: hidden;
@@ -167,8 +167,9 @@
       .w(100%);
       .h(calc(~"100% - 100px"));
       .p(0 20px 20px);
+      .b(@bodyBg);
       /*.b(@bodyBg);*/
-      .b(lightblue);
+      /*.b(lightblue);*/
       box-sizing: border-box;
     }
     @media only screen and (min-width: 1400px) {
